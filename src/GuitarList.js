@@ -12,9 +12,8 @@ class GuitarList extends Component {
               id={guitar.id}
               brand={guitar.brand} 
               model={guitar.model}
-             
               key={i}
-              onDelete={this.props.onDelete}
+              
             />
           )}
         </ul>
